@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="22.312" tests="9" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\DNS\Desktop\Catalog\Для ВолГу\Технология разработки (тестирование) ПО\Лабы\Лаб 6\Lab_6\target\test-classes;C:\Users\DNS\Desktop\Catalog\Для ВолГу\Технология разработки (тестирование) ПО\Лабы\Лаб 6\Lab_6\target\classes;C:\Users\DNS\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\DNS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\DNS\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar;C:\Users\DNS\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar;C:\Users\DNS\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar;C:\Users\DNS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\DNS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\DNS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\DNS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\DNS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\DNS\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\DNS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\DNS\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar;C:\Users\DNS\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar;C:\Users\DNS\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar;C:\Users\DNS\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar;C:\Users\DNS\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\DNS\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\DNS\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\DNS\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\DNS\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\DNS\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\DNS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\DNS\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\DNS\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\DNS\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\DNS\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\DNS\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\DNS\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\DNS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\DNS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\DNS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\DNS\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="GMT+04:00"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13\bin"/>
+    <property name="sun.java.command" value="C:\Users\DNS\AppData\Local\Temp\surefire16385824070180788669\surefirebooter9417812818701983608.jar C:\Users\DNS\AppData\Local\Temp\surefire16385824070180788669 2020-06-08T17-09-20_606-jvmRun1 surefire4468022831057799041tmp surefire_011465949528305290238tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\DNS\Desktop\Catalog\Для ВолГу\Технология разработки (тестирование) ПО\Лабы\Лаб 6\Lab_6\target\test-classes;C:\Users\DNS\Desktop\Catalog\Для ВолГу\Технология разработки (тестирование) ПО\Лабы\Лаб 6\Lab_6\target\classes;C:\Users\DNS\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\DNS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\DNS\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar;C:\Users\DNS\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar;C:\Users\DNS\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar;C:\Users\DNS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\DNS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\DNS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\DNS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\DNS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\DNS\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\DNS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\DNS\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar;C:\Users\DNS\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar;C:\Users\DNS\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar;C:\Users\DNS\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar;C:\Users\DNS\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\DNS\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\DNS\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\DNS\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\DNS\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\DNS\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\DNS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\DNS\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\DNS\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\DNS\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\DNS\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\DNS\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\DNS\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\DNS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\DNS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\DNS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\DNS\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\DNS"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-09-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\DNS\Desktop\Catalog\Для ВолГу\Технология разработки (тестирование) ПО\Лабы\Лаб 6\Lab_6"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\DNS\AppData\Local\Temp\surefire16385824070180788669\surefirebooter9417812818701983608.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13+33"/>
+    <property name="user.name" value="DNS"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\DNS\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\DNS\AppData\Local\Temp\"/>
+    <property name="java.version" value="13"/>
+    <property name="user.dir" value="C:\Users\DNS\Desktop\Catalog\Для ВолГу\Технология разработки (тестирование) ПО\Лабы\Лаб 6\Lab_6"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="idea.version2019.3.3" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\BellSoft\LibericaJDK-13\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Common Files\Autodesk Shared\;C:\Users\DNS\AppData\Local\Microsoft\WindowsApps;C:\texlive\2017\bin\win32;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13+33"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="all_list_users" classname="lab_6.ApiTests" time="4.65"/>
+  <testcase name="get_user_ID" classname="lab_6.ApiTests" time="1.552"/>
+  <testcase name="list_name_user" classname="lab_6.ApiTests" time="1.375"/>
+  <testcase name="put_user_ID" classname="lab_6.ApiTests" time="2.268"/>
+  <testcase name="test_create_new_user" classname="lab_6.ApiTests" time="2.111">
+    <failure message="1 expectation failed.&#10;JSON path result.first_name doesn&apos;t match.&#10;Expected: Severus&#10;  Actual: [null]&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+JSON path result.first_name doesn't match.
+Expected: Severus
+  Actual: [null]
+
+	at lab_6.ApiTests.test_create_new_user(ApiTests.java:77)
+]]></failure>
+    <system-out><![CDATA[Тест 3
+Cоздать нового пользователя.
+Request method:	POST
+Request URI:	https://gorest.co.in/public-api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "first_name": "Severus",
+    "last_name": "Snape",
+    "gender": "male",
+    "email": "Snappy@gmail.com",
+    "phone": "+7 (900) 696-99-66"
+}
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 08 Jun 2020 13:10:54 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept
+X-Rate-Limit-Limit: 30
+X-Rate-Limit-Remaining: 28
+X-Rate-Limit-Reset: 4
+Set-Cookie: _csrf=9af11f8e6a08684e03c7bf6ef4b8c45ea3b68699316772ae7f6b840333e3d696a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Tk_7vH9O2q6NrTG1ofHq1u2mPi9TvWq4%22%3B%7D; path=/; HttpOnly
+X-Frame-Options: sameorigin
+Content-Encoding: gzip
+
+{
+    "_meta": {
+        "success": false,
+        "code": 422,
+        "message": "Data validation failed. Please check the response body for detailed error messages.",
+        "rateLimit": {
+            "limit": 30,
+            "remaining": 28,
+            "reset": 4
+        }
+    },
+    "result": [
+        {
+            "field": "email",
+            "message": "Email \"Snappy@gmail.com\" has already been taken."
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="test_delete_ID" classname="lab_6.ApiTests" time="1.431">
+    <failure message="1 expectation failed.&#10;JSON path result doesn&apos;t match.&#10;Expected: null&#10;  Actual: {code=0, name=Not Found, message=Object not found: 29163, status=404}&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+JSON path result doesn't match.
+Expected: null
+  Actual: {code=0, name=Not Found, message=Object not found: 29163, status=404}
+
+	at lab_6.ApiTests.test_delete_ID(ApiTests.java:135)
+]]></failure>
+    <system-out><![CDATA[Тест 6
+Удалить пользователя с указанным ID.
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 08 Jun 2020 13:10:56 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept
+X-Rate-Limit-Limit: 30
+X-Rate-Limit-Remaining: 28
+X-Rate-Limit-Reset: 4
+Set-Cookie: _csrf=2de5083595a8776286c92dc3a57924fc41d75998cf6f125511dfe5e6bdbce59aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tFp6jFC2MJdEolm7RSgPYNSb5QtwoItf%22%3B%7D; path=/; HttpOnly
+X-Frame-Options: sameorigin
+Content-Encoding: gzip
+
+{
+    "_meta": {
+        "success": false,
+        "code": 404,
+        "message": "The requested resource does not exist.",
+        "rateLimit": {
+            "limit": 30,
+            "remaining": 28,
+            "reset": 4
+        }
+    },
+    "result": {
+        "name": "Not Found",
+        "message": "Object not found: 29163",
+        "code": 0,
+        "status": 404
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="test_delete_ID" classname="lab_6.NegativeApiTests" time="1.813">
+    <failure message="1 expectation failed.&#10;JSON path result doesn&apos;t match.&#10;Expected: null&#10;  Actual: {code=0, name=Not Found, message=Object not found: 29177, status=404}&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+JSON path result doesn't match.
+Expected: null
+  Actual: {code=0, name=Not Found, message=Object not found: 29177, status=404}
+
+	at lab_6.NegativeApiTests.test_delete_ID(NegativeApiTests.java:83)
+]]></failure>
+    <system-out><![CDATA[Тест 3
+DELETE /public-api/users.
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 08 Jun 2020 13:10:58 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept
+X-Rate-Limit-Limit: 30
+X-Rate-Limit-Remaining: 28
+X-Rate-Limit-Reset: 4
+Set-Cookie: _csrf=bb9a0e487d956e8597ecc0fb58f1cf113bc36fe430d7da21cd92274d7d8c56b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228yz7mRoWP3zwLcGoceYhZ4lio4KiCJxr%22%3B%7D; path=/; HttpOnly
+X-Frame-Options: sameorigin
+Content-Encoding: gzip
+
+{
+    "_meta": {
+        "success": false,
+        "code": 404,
+        "message": "The requested resource does not exist.",
+        "rateLimit": {
+            "limit": 30,
+            "remaining": 28,
+            "reset": 4
+        }
+    },
+    "result": {
+        "name": "Not Found",
+        "message": "Object not found: 29177",
+        "code": 0,
+        "status": 404
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="test_uncorrect_post" classname="lab_6.NegativeApiTests" time="1.631">
+    <failure message="1 expectation failed.&#10;JSON path result.last_name doesn&apos;t match.&#10;Expected: Snape&#10;  Actual: [null, null]&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+JSON path result.last_name doesn't match.
+Expected: Snape
+  Actual: [null, null]
+
+	at lab_6.NegativeApiTests.test_uncorrect_post(NegativeApiTests.java:67)
+]]></failure>
+    <system-out><![CDATA[Тест 2
+POST с некорректным форматом тела запроса.
+Request method:	POST
+Request URI:	https://gorest.co.in/public-api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "last_name": "Snape",
+    "gender": "male",
+    "email": "Snappy@gmail.com",
+    "phone": "+7 (900) 696-99-66"
+}
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 08 Jun 2020 13:11:00 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept
+X-Rate-Limit-Limit: 30
+X-Rate-Limit-Remaining: 28
+X-Rate-Limit-Reset: 4
+Set-Cookie: _csrf=05c79ed32da8bb8145026ee679d8e2438174882bad98c1d7705172d027203835a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tzUzs-0d3NOJg7CHU8MslBtmG_111ucA%22%3B%7D; path=/; HttpOnly
+X-Frame-Options: sameorigin
+Content-Encoding: gzip
+
+{
+    "_meta": {
+        "success": false,
+        "code": 422,
+        "message": "Data validation failed. Please check the response body for detailed error messages.",
+        "rateLimit": {
+            "limit": 30,
+            "remaining": 28,
+            "reset": 4
+        }
+    },
+    "result": [
+        {
+            "field": "first_name",
+            "message": "First Name cannot be blank."
+        },
+        {
+            "field": "email",
+            "message": "Email \"Snappy@gmail.com\" has already been taken."
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="token_empty_uncorrect" classname="lab_6.NegativeApiTests" time="2.838"/>
+</testsuite>

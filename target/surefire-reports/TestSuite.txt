@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 22.312 s <<< FAILURE! - in TestSuite
+lab_6.ApiTests.test_create_new_user  Time elapsed: 2.111 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path result.first_name doesn't match.
+Expected: Severus
+  Actual: [null]
+
+	at lab_6.ApiTests.test_create_new_user(ApiTests.java:77)
+
+lab_6.ApiTests.test_delete_ID  Time elapsed: 1.431 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path result doesn't match.
+Expected: null
+  Actual: {code=0, name=Not Found, message=Object not found: 29163, status=404}
+
+	at lab_6.ApiTests.test_delete_ID(ApiTests.java:135)
+
+lab_6.NegativeApiTests.test_delete_ID  Time elapsed: 1.813 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path result doesn't match.
+Expected: null
+  Actual: {code=0, name=Not Found, message=Object not found: 29177, status=404}
+
+	at lab_6.NegativeApiTests.test_delete_ID(NegativeApiTests.java:83)
+
+lab_6.NegativeApiTests.test_uncorrect_post  Time elapsed: 1.631 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path result.last_name doesn't match.
+Expected: Snape
+  Actual: [null, null]
+
+	at lab_6.NegativeApiTests.test_uncorrect_post(NegativeApiTests.java:67)
+

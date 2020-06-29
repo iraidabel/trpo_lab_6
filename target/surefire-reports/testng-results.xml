@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-27T23:22:12 GMT+04:00" name="Suite1" finished-at="2020-05-27T23:22:18 GMT+04:00" duration-ms="5961">
+    <groups>
+    </groups>
+    <test started-at="2020-05-27T23:22:12 GMT+04:00" name="test1" finished-at="2020-05-27T23:22:18 GMT+04:00" duration-ms="5961">
+      <class name="lab6.ApiTests">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:lab6.ApiTests@18a70f16]" started-at="2020-05-27T23:22:12 GMT+04:00" name="beforeClass" finished-at="2020-05-27T23:22:13 GMT+04:00" duration-ms="900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="all_list_users()[pri:0, instance:lab6.ApiTests@18a70f16]" started-at="2020-05-27T23:22:13 GMT+04:00" name="all_list_users" finished-at="2020-05-27T23:22:18 GMT+04:00" duration-ms="4994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- all_list_users -->
+      </class> <!-- lab6.ApiTests -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

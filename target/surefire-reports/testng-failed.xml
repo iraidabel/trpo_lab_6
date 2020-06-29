@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="test1(failed)" verbose="0">
+    <classes>
+      <class name="lab6.ApiTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="all_list_users"/>
+        </methods>
+      </class> <!-- lab6.ApiTests -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
